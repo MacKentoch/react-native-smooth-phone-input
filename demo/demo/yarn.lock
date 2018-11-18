@@ -5111,7 +5111,7 @@ react-native-safe-area-view@^0.7.0:
 
 "react-native-smooth-phone-input@https://github.com/MacKentoch/react-native-smooth-phone-input.git":
   version "1.0.0"
-  resolved "https://github.com/MacKentoch/react-native-smooth-phone-input.git#47cee54722c808797292226088674f8ac149893f"
+  resolved "https://github.com/MacKentoch/react-native-smooth-phone-input.git#1362e780617cc259abea6a41e8f8c704683e963e"
   dependencies:
     libphonenumber-js "^1.6.7"
     lodash.find "^4.6.0"

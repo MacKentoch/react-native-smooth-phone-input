@@ -2,7 +2,7 @@
 
 // #region imports
 import React, { PureComponent } from 'react';
-import { View, StyleSheet, Dimensions } from 'react-native';
+import { View, StyleSheet, Dimensions, Text } from 'react-native';
 import PhoneInput from 'react-native-smooth-phone-input';
 import CountryPicker from 'react-native-country-picker-modal';
 // #endregion
@@ -17,6 +17,12 @@ export type State = {
   initialCountry: 'fr' | 'us' | 'uk',
   translation?: 'fra' | 'eng',
   placeholder?: string,
+
+  isValidPhoneNumber: boolean,
+  countryCode: string,
+  isoCode: string,
+  intPhoneNum: string,
+
   ...any,
 };
 // #endregion
@@ -37,6 +43,11 @@ class Demo extends PureComponent<Props, State> {
     initialCountry: 'fr',
     initialValue: null,
     translation: 'fra',
+
+    isValidPhoneNumber: false,
+    countryCode: '',
+    isoCode: '',
+    intPhoneNum: '',
   };
 
   // #region lifecycle
@@ -51,6 +62,10 @@ class Demo extends PureComponent<Props, State> {
       initialCountry,
       initialValue,
       translation,
+      isValidPhoneNumber,
+      countryCode,
+      isoCode,
+      intPhoneNum,
     } = this.state;
 
     const valueProps = !initialValue ? {} : { value: initialValue };
@@ -82,6 +97,15 @@ class Demo extends PureComponent<Props, State> {
           >
             {cca2}
           </PhoneInput>
+          <View style={styles.statusContainer}>
+            <Text>
+              Phone number is valid:{' '}
+              {!isValidPhoneNumber ? 'NOT A VALID NUMBER' : 'VALID!'}
+            </Text>
+            <Text>country code: {countryCode || ''}</Text>
+            <Text>iso code: {isoCode || ''}</Text>
+            <Text>international phone number: {intPhoneNum || ''}</Text>
+          </View>
 
           {/* country picker modal: */}
           <CountryPicker
@@ -116,7 +140,13 @@ class Demo extends PureComponent<Props, State> {
 
   // #region on input change event
   handlesOnInputChange = (value: string) => {
-    this.setState({ cca2: value });
+    this.setState({
+      cca2: value,
+      isValidPhoneNumber: this.phone.isValid(),
+      countryCode: this.phone.getCountryCode(),
+      isoCode: this.phone.getISOCode(),
+      intPhoneNum: this.phone.getInternationalFormatted(),
+    });
 
     const payload = {
       phone: this.phone.getInternationalFormatted(),
@@ -156,6 +186,9 @@ const styles = StyleSheet.create({
     marginTop: (deviceHeight * 1) / 5,
     flex: 1,
     paddingHorizontal: 10,
+  },
+  statusContainer: {
+    marginVertical: 20,
   },
 });
 

@@ -9,7 +9,6 @@ export default StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    // borderWidth:1,
   },
   basicContainer: {
     flex: 1,
