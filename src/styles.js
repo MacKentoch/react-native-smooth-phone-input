@@ -42,7 +42,6 @@ export default StyleSheet.create({
     backgroundColor: '#cecece',
   },
   text: {
-    fontFamily: 'Montserrat-Regular',
     height: 20,
     padding: 0,
     color: '#222222',
