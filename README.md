@@ -4,7 +4,7 @@
 
 IT:
 
-- follows national patterns (who write his own phone numlber in international pattern 🤨)
+- follows national patterns (who write his own phone number in international pattern 🤨)
 - validates number
 - gives international matching number (*backend may prefer international pattern*)
 
