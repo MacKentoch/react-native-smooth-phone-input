@@ -1,5 +1,4 @@
 import { StyleSheet, Dimensions } from 'react-native';
-import theme from '../../../../config/theme';
 
 const { width } = Dimensions.get('window');
 
@@ -46,7 +45,7 @@ export default StyleSheet.create({
     fontFamily: 'Montserrat-Regular',
     height: 20,
     padding: 0,
-    color: theme.black.text,
+    color: '#222222',
     justifyContent: 'center',
   },
 });
