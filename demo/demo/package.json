@@ -9,7 +9,8 @@
   "dependencies": {
     "react": "16.6.1",
     "react-native": "0.57.5",
-    "react-native-country-picker-modal": "^0.6.2"
+    "react-native-country-picker-modal": "^0.6.2",
+    "react-native-smooth-phone-input": "https://github.com/MacKentoch/react-native-smooth-phone-input.git"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.5",
