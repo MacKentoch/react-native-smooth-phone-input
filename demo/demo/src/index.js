@@ -3,7 +3,7 @@
 // #region imports
 import React, { PureComponent } from 'react';
 import { View, StyleSheet, Dimensions } from 'react-native';
-import PhoneInput from './lib';
+import PhoneInput from 'react-native-smooth-phone-input';
 import CountryPicker from 'react-native-country-picker-modal';
 // #endregion
 
