@@ -20,7 +20,7 @@ BUT IT:
   <img src="./assets/failed-2.png" height="525px"  width="250px" alt="failed-2" style="margin-right:0.5rem;border:solid 1px #333333 ;border-radius:20px;" />
 </div>
 
-## Full use case:
+## Full use case
 
 ```javascript
 // @flow
