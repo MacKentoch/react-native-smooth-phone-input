@@ -15,9 +15,9 @@ BUT IT:
 - does not make ☕️ (not planned to do so, sorry 😋)
 
 <div style="position:relative;width:100vw;display:flex;flex-direction:row; flex-grow:1;background-color: #333333;padding:1rem 0.5rem;">
-  <img src="./assets/failed-1.png" height="525px"  width="250px" alt="failed-1" style="margin-right:0.5rem;border:solid 1px #333333 1px;border-radius:20px;"/>
-  <img src="./assets/success-1.png" height="525px"  width="250px" alt="success-1" style="margin-right:0.5rem;border:solid 1px #333333;border-radius:20px;" />
-  <img src="./assets/failed-2.png" height="525px"  width="250px" alt="failed-2" style="margin-right:0.5rem;border:solid 1px #333333 ;border-radius:20px;" />
+  <img src="https://github.com/MacKentoch/react-native-smooth-phone-input/blob/master/assets/failed-1.png" height="525px"  width="250px" alt="failed-1" style="margin-right:0.5rem;border:solid 1px #333333 1px;border-radius:20px;"/>
+  <img src="https://github.com/MacKentoch/react-native-smooth-phone-input/blob/master/assets/success-1.png" height="525px"  width="250px" alt="success-1" style="margin-right:0.5rem;border:solid 1px #333333;border-radius:20px;" />
+  <img src="https://github.com/MacKentoch/react-native-smooth-phone-input/blob/master/assets/failed-2.png" height="525px"  width="250px" alt="failed-2" style="margin-right:0.5rem;border:solid 1px #333333 ;border-radius:20px;" />
 </div>
 
 ## Full use case
@@ -252,7 +252,24 @@ const countryPickerStyle = StyleSheet.create({
 // #endregion
 
 export default Demo;
-
-
-
 ```
+
+
+## Donate
+
+Do you use & like `react-native-smooth-phone-input` but you don’t find a way to show some ❤️?
+If yes, please consider donating to support this project. Otherwise, no worries, regardless of whether there is support or not, I will keep maintaining this project. Still, if you buy me a cup of coffee I would be more than happy though 😄
+
+[![Support via PayPal](https://github.com/MacKentoch/react-native-smooth-phone-input/blob/master/assets/Paypal-button.png)](https://www.paypal.me/ErwanDatin/)
+
+## License
+
+The MIT License (MIT)
+
+Copyright (c) 2019 Erwan DATIN
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
