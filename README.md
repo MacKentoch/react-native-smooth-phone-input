@@ -15,9 +15,9 @@ BUT IT:
 - does not make ☕️ (not planned to do so, sorry 😋)
 
 <div style="position:relative;width:100vw;display:flex;flex-direction:row; flex-grow:1;background-color: #333333;padding:1rem 0.5rem;">
-  <img src="https://github.com/MacKentoch/react-native-smooth-phone-input/blob/master/assets/failed-1.png" height="525px"  width="250px" alt="failed-1" style="margin-right:0.5rem;border:solid 1px #333333 1px;border-radius:20px;"/>
-  <img src="https://github.com/MacKentoch/react-native-smooth-phone-input/blob/master/assets/success-1.png" height="525px"  width="250px" alt="success-1" style="margin-right:0.5rem;border:solid 1px #333333;border-radius:20px;" />
-  <img src="https://github.com/MacKentoch/react-native-smooth-phone-input/blob/master/assets/failed-2.png" height="525px"  width="250px" alt="failed-2" style="margin-right:0.5rem;border:solid 1px #333333 ;border-radius:20px;" />
+  <img src="https://raw.githubusercontent.com/MacKentoch/react-native-smooth-phone-input/master/assets/failed-1.png" height="525px"  width="250px" alt="failed-1" style="margin-right:0.5rem;border:solid 1px #333333 1px;border-radius:20px;"/>
+  <img src="https://raw.githubusercontent.com/MacKentoch/react-native-smooth-phone-input/master/assets/success-1.png" height="525px"  width="250px" alt="success-1" style="margin-right:0.5rem;border:solid 1px #333333;border-radius:20px;" />
+  <img src="https://raw.githubusercontent.com/MacKentoch/react-native-smooth-phone-input/master/assets/failed-2.png" height="525px"  width="250px" alt="failed-2" style="margin-right:0.5rem;border:solid 1px #333333 ;border-radius:20px;" />
 </div>
 
 ## Full use case
@@ -260,7 +260,7 @@ export default Demo;
 Do you use & like `react-native-smooth-phone-input` but you don’t find a way to show some ❤️?
 If yes, please consider donating to support this project. Otherwise, no worries, regardless of whether there is support or not, I will keep maintaining this project. Still, if you buy me a cup of coffee I would be more than happy though 😄
 
-[![Support via PayPal](https://github.com/MacKentoch/react-native-smooth-phone-input/blob/master/assets/Paypal-button.png)](https://www.paypal.me/ErwanDatin/)
+[![Support via PayPal](https://raw.githubusercontent.com/MacKentoch/react-native-smooth-phone-input/master/assets/Paypal-button.png)](https://www.paypal.me/ErwanDatin/)
 
 ## License
 

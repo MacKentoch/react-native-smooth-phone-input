@@ -1,6 +1,6 @@
 {
   "name": "react-native-smooth-phone-input",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "user friendly react-native phone input",
   "main": "src/index.js",
   "scripts": {
